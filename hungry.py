@@ -15,3 +15,4 @@ print("while revert command helps in reverting the previous commit, resetting he
 print("'git branch' tells us how many branches are there available"
       "'git checkout <branch>' allows to switch to that branch from master"
       "'git merge <branch>' allows to merge the branch with master branch and do not forget to checkout to master")
+print("to delete a branch 'git branch -d <branch>")
