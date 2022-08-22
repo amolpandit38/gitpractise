@@ -12,3 +12,6 @@ print("to revert changes 'git revert <commit id>'. you will get commit id by 'gi
 print("while revert command helps in reverting the previous commit, resetting helps multiple commits"
       "serially to revert, 'git reset --hard <commit id>' commit id must be the id from where the above "
       "commits, seem useless")
+print("'git branch' tells us how many branches are there available"
+      "'git checkout <branch>' allows to switch to that branch from master"
+      "'git merge <branch>' allows to merge the branch with master branch and do not forget to checkout to master")
