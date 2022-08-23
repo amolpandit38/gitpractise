@@ -29,3 +29,5 @@ print("If there are two branches, HEAD will point toward the currently ACTIVE br
       "the HEAD can sometimes be different apart from being the tip of the branch"
       "you can change the head to any commit id in that branch by 'git checkout <commit id>' it is "
       "called DETACHED HEAD state")
+print("creating a .gitignore file to ignore the files which you don't want to push, and push the"
+      ".gitignore file to the origin")
