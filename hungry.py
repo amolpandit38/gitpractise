@@ -30,4 +30,5 @@ print("If there are two branches, HEAD will point toward the currently ACTIVE br
       "you can change the head to any commit id in that branch by 'git checkout <commit id>' it is "
       "called DETACHED HEAD state")
 print("creating a .gitignore file to ignore the files which you don't want to push, and push the"
-      ".gitignore file to the origin")
+      ".gitignore file to the origin, '*.exe' here * is wildcard where all the files having .exe extension"
+      "will be ignored, and so as with other extensions can also be ignored same")
