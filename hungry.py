@@ -16,3 +16,16 @@ print("'git branch' tells us how many branches are there available"
       "'git checkout <branch>' allows to switch to that branch from master"
       "'git merge <branch>' allows to merge the branch with master branch and do not forget to checkout to master")
 print("to delete a branch 'git branch -d <branch>")
+print("HEAD is the most recent commit in a current branch (in most cases)")
+print("use command 'git show HEAD' to know the HEAD of that branch")
+print("use the 'git show <commit id>' to get the updates made during that commit")
+print("use 'git difftool HEAD' to look for the changes made in the HEAD to previous commit")
+print("use 'git difftool <commit id 1> <commit id 2>' to look for the changes happen in these two commits")
+print("use 'git difftool HEAD~2 HEAD~1' to get the diff between these two commits")
+print("here HEAD is the tip of the branch and HEAD~1 is one commit previous to HEAD, so HEAD~2 is two "
+      "commits prior to HEAD and so on")
+print("If there are two branches, HEAD will point toward the currently ACTIVE branch"
+      "you can check which branch is active by 'git branch', * will appear on side of active branch"
+      "the HEAD can sometimes be different apart from being the tip of the branch"
+      "you can change the head to any commit id in that branch by 'git checkout <commit id>' it is "
+      "called DETACHED HEAD state")
