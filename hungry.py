@@ -32,3 +32,7 @@ print("If there are two branches, HEAD will point toward the currently ACTIVE br
 print("creating a .gitignore file to ignore the files which you don't want to push, and push the"
       ".gitignore file to the origin, '*.exe' here * is wildcard where all the files having .exe extension"
       "will be ignored, and so as with other extensions can also be ignored same")
+print("we have to install meld on the system to use difftool and mergetool commands in a better way"
+      "meld allows us to have a better ui than vimdiff and allows better understanding of the changes"
+      "use 'git difftool' to look for recent changes in the current file"
+      "use 'git difftool origin/main' to look for the changes in the upstream(github) and the local file")
