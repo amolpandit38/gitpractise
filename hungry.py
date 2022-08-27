@@ -14,7 +14,8 @@ print("while revert command helps in reverting the previous commit, resetting he
       "commits, seem useless")
 print("'git branch' tells us how many branches are there available"
       "'git checkout <branch>' allows to switch to that branch from master"
-      "'git merge <branch>' allows to merge the branch with master branch and do not forget to checkout to master")
+      "'git merge <branch>' allows to merge the branch with master branch and do not forget to checkout "
+      "to master")
 print("to delete a branch 'git branch -d <branch>")
 print("HEAD is the most recent commit in a current branch (in most cases)")
 print("use command 'git show HEAD' to know the HEAD of that branch")
@@ -36,3 +37,10 @@ print("we have to install meld on the system to use difftool and mergetool comma
       "meld allows us to have a better ui than vimdiff and allows better understanding of the changes"
       "use 'git difftool' to look for recent changes in the current file"
       "use 'git difftool origin/main' to look for the changes in the upstream(github) and the local file")
+print("while contributing to open source there will be scenario where you have to fork other repos and"
+      "make possible changes but what after that, the changes has to be pushed back to the base where you"
+      "forked it from, but that base repo is not what you own so, the owner of the base repo has to pull"
+      "the changes from your repo to the base, but to notify him you could rather do is to send him a"
+      "pull request so that he can consider your changes and decide whether to pull it or not"
+      "do 'git pull' or 'go to github and from there open a new pull request")
+'''_________________________ THE END _______________________________________________'''
